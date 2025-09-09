@@ -1,0 +1,20 @@
+{
+"Resources": {
+"MySNSTopic": {
+"Type": "AWS::SNS::Topic",
+"Properties": {
+"TopicName": "SampleTopic"
+}
+}
+},
+"Outputs": {
+"TopicArn": {
+"Description": "The ARN of the created SNS topic",
+"Value": { "Ref": "MySNSTopic" }
+},
+"TopicName": {
+"Description": "The name of the created SNS topic",
+"Value": "SampleTopic"
+}
+}
+}
