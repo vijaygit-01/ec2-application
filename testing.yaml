@@ -15,6 +15,10 @@
 "TopicName": {
 "Description": "The name of the created SNS topic",
 "Value": "SampleTopic"
+},
+"TopicName": {
+"Description": "The name of the created SNS topic",
+"Value": "SampleTopic"
 }
 }
 }
